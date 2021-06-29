@@ -1,0 +1,5 @@
+The following modules needs to be installed for the program to work.
+
+requests
+json
+os

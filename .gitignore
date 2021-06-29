@@ -6,7 +6,14 @@ __pycache__/
 # C extensions
 *.so
 
+# Picture folder
+images/
+
 # Distribution / packaging
+api-key.txt
+.idea
+shelf/
+/workspace.xml
 .Python
 build/
 develop-eggs/
