@@ -1,4 +1,4 @@
-import requests, json, os
+import requests, json, os, wget
 
 # Path to images
 script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
@@ -16,6 +16,12 @@ r = requests.post(
     },
     headers=api_key
 )
-print(r.json())
+
+#print(r.json())
+response = r.json()
+url = response.get('output_url')
+
+image_filename = wget.download(url, out=script_dir + "/output/" + "out.jpg")
+
 
 
