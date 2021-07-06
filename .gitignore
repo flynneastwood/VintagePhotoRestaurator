@@ -10,7 +10,8 @@ __pycache__/
 images/
 
 # Distribution / packaging
-api-key.txt
+api-key-tweeter.txt
+api-key-deepai.txt
 .idea
 shelf/
 /workspace.xml
